@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>hmmm</string>
+	</array>
+	<key>name</key>
+	<string>HMMM</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>#.*$</string>
+			<key>name</key>
+			<string>comment.line.hmmm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b\d*\b</string>
+			<key>name</key>
+			<string>constant.numeric.hmmm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bhalt|read|write|nop|setn|addn|copy|add|sub|neg|mul|div|mod|jumpn|jumpr|jeqzn|jnezn|jgtzn|jltzn|calln|loadn|storen|loadr|storer|mov|jump|jeqz|jnez|jgtz|jltz|call|loadi|load|storei|store\b</string>
+			<key>name</key>
+			<string>keyword.control.hmmm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(?i)(r)\d[1-5]?\b</string>
+			<key>name</key>
+			<string>variable.parameter.register.hmmm</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.hmmm</string>
+	<key>uuid</key>
+	<string>2b0ed822-62b8-4bbc-9aa9-e019b604d34c</string>
+</dict>
+</plist>
