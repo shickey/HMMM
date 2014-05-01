@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i)(r)\d[1-5]?\b</string>
+			<string>\b(?i)(r)\d[0-5]?\b</string>
 			<key>name</key>
 			<string>variable.parameter.register.hmmm</string>
 		</dict>
